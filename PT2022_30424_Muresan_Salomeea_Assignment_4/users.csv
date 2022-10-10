@@ -1,0 +1,4 @@
+id,username,password,accessRights
+1,client,client,CLIENT
+2,admin,admin,ADMINISTRATOR
+3,employee,employee,EMPLOYEE

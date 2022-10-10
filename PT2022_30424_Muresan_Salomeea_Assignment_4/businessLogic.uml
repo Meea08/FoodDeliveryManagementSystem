@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>businessLogic</OriginalElement>
+  <nodes>
+    <node x="0.0" y="380.0">businessLogic.User</node>
+    <node x="237.0" y="0.0">businessLogic.Observable</node>
+    <node x="130.75" y="74.0">businessLogic.DeliveryService</node>
+    <node x="91.75" y="153.0">businessLogic.MenuItem</node>
+    <node x="0.0" y="306.0">businessLogic.AccessRights</node>
+    <node x="0.0" y="0.0">businessLogic.IDeliveryServiceProcessing</node>
+    <node x="178.0" y="306.0">businessLogic.Orders</node>
+    <node x="0.0" y="232.0">businessLogic.BaseProduct</node>
+    <node x="149.0" y="232.0">businessLogic.CompositeProduct</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="businessLogic.DeliveryService" target="businessLogic.IDeliveryServiceProcessing" relationship="REALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="203.25" y="54.0" />
+      <point x="108.5" y="54.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="businessLogic.BaseProduct" target="businessLogic.MenuItem" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="64.5" y="207.0" />
+      <point x="149.25" y="207.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="businessLogic.CompositeProduct" target="businessLogic.MenuItem" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="234.0" y="207.0" />
+      <point x="149.25" y="207.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="businessLogic.DeliveryService" target="businessLogic.Observable" relationship="REALIZATION">
+      <point x="0.0" y="-14.5" />
+      <point x="203.25" y="54.0" />
+      <point x="298.0" y="54.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="false" x="179.5" y="204.5" />
+  <SelectedNodes>
+    <node>businessLogic.DeliveryService</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
